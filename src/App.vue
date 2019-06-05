@@ -3,9 +3,11 @@
     <nav class="teal darken-4">
       <div class="nav-wrapper">
         <div class="container">
-          <a class="brand-logo">VueJs & Firebase App</a>
+          <a class="brand-logo">FastStore</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#/">Produtos</a></li>
+            <li>
+              <a href="#/">Produtos</a>
+            </li>
           </ul>
         </div>
       </div>
