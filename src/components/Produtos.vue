@@ -13,7 +13,7 @@
           </div>
           <div class="input-field col m6 s12">
             <input id="produto_id" type="text" class="validate" v-model="produtoDados.produto_id">
-            <label v-bind:class="{ active: labelIsActive }" for="produto_id">Cód. do Produto</label>
+            <label class="active" for="produto_id">Cód. do Produto</label>
           </div>
         </div>
         <div class="row">
@@ -37,7 +37,7 @@
         </div>
         <div class="row">
           <a
-            @click.prevent="adicionarOuCriarProduto"
+            @click.prevent="adicionarOuEditarProduto"
             class="waves-effect waves-light btn"
           >{{ labelSpace }}</a>
         </div>
@@ -141,7 +141,7 @@ export default {
           this.produtos = produtos
         })
     },
-    adicionarOuCriarProduto () {
+    adicionarOuEditarProduto () {
       db.collection('Produtos')
         .where('produto_id', '==', this.produtoDados.produto_id)
         .get()

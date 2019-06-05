@@ -6,7 +6,13 @@
           <a class="brand-logo">FastStore</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
-              <a href="#/">Produtos</a>
+              <a href="#/">Nova Venda</a>
+            </li>
+            <li>
+              <a href="#/vendas/lista">Gerenciar Vendas</a>
+            </li>
+            <li>
+              <a href="#/produtos">Produtos</a>
             </li>
           </ul>
         </div>
@@ -20,8 +26,8 @@
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
 <style>
