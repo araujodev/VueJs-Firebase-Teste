@@ -3,7 +3,7 @@
     <h3>
       <i class="small material-icons">add_circle_outline</i>
       Nova Venda
-      <router-link to="#/vendas/lista" class="btn">Listar Vendas</router-link>
+      <router-link to="/vendas/lista" class="btn">Listar Vendas</router-link>
     </h3>
     <div class="row">
       <form class="col s12">
@@ -36,9 +36,7 @@ export default {
         preco_custo: ''
       }
     }
-  },
-  created () {},
-  methods: {}
+  }
 }
 </script>
 
