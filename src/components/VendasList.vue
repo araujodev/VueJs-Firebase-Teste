@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import db from '@/db';
+import db from '@/db'
 
 export default {
   name: 'VendasList',

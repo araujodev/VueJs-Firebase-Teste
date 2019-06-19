@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "firebase": "^6.1.0",
+    "materialize-css": "^1.0.0-rc.2",
     "query": "^0.2.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
