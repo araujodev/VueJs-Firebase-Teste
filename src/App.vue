@@ -3,7 +3,7 @@
     <nav class="teal darken-4">
       <div class="nav-wrapper">
         <div class="container">
-          <a class="brand-logo">FastStore</a>
+          <a href="#/" class="brand-logo">FastStore</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
               <a href="#/">Nova Venda</a>

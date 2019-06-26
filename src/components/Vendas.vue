@@ -31,11 +31,7 @@
         <div class="card grey lighten-4" v-for="produto in vendaDados.listaProdutos" v-bind:key="produto.produto.produto_id">
           <div class="card-content">
             <span class="card-title"> {{ produto.produto.nome }} </span>
-            <p>Valor Unitário: {{ produto.produto.preco }}</p>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-              <a href="#">This is a link</a>
-            </div>
+            <p>Valor Unitário: R$<b>{{ produto.produto.preco }}</b></p>
           </div>
         </div>
       </div>
